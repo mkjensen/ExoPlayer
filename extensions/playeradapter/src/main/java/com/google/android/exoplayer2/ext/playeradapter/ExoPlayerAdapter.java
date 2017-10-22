@@ -15,9 +15,55 @@
  */
 package com.google.android.exoplayer2.ext.playeradapter;
 
+import android.support.v17.leanback.media.PlaybackGlueHost;
 import android.support.v17.leanback.media.PlayerAdapter;
 
 public class ExoPlayerAdapter extends PlayerAdapter {
+
+  @Override
+  public boolean isPrepared() {
+    return super.isPrepared();
+  }
+
+  @Override
+  public void seekTo(long positionInMs) {
+    super.seekTo(positionInMs);
+  }
+
+  @Override
+  public void setProgressUpdatingEnabled(boolean enable) {
+    super.setProgressUpdatingEnabled(enable);
+  }
+
+  @Override
+  public boolean isPlaying() {
+    return super.isPlaying();
+  }
+
+  @Override
+  public long getDuration() {
+    return super.getDuration();
+  }
+
+  @Override
+  public long getCurrentPosition() {
+    return super.getCurrentPosition();
+  }
+
+  @Override
+  public long getBufferedPosition() {
+    return super.getBufferedPosition();
+  }
+
+  @Override
+  public void onAttachedToHost(PlaybackGlueHost host) {
+    super.onAttachedToHost(host);
+  }
+
+  @Override
+  public void onDetachedFromHost() {
+    super.onDetachedFromHost();
+  }
 
   @Override
   public void play() {
