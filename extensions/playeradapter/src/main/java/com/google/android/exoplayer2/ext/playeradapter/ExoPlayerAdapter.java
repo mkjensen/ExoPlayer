@@ -18,7 +18,14 @@ package com.google.android.exoplayer2.ext.playeradapter;
 import android.support.v17.leanback.media.PlaybackGlueHost;
 import android.support.v17.leanback.media.PlayerAdapter;
 
+/**
+ * TODO: Add documentation
+ */
 public class ExoPlayerAdapter extends PlayerAdapter {
+
+  // TODO: The methods below need to be implemented using ExoPlayer
+
+  // TODO: Call appropriate methods of PlayerAdapter.Callback via getCallback()
 
   @Override
   public boolean isPrepared() {
