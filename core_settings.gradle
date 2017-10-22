@@ -32,6 +32,7 @@ include modulePrefix + 'extension-cast'
 include modulePrefix + 'extension-mediasession'
 include modulePrefix + 'extension-okhttp'
 include modulePrefix + 'extension-opus'
+include modulePrefix + 'extension-playeradapter'
 include modulePrefix + 'extension-vp9'
 include modulePrefix + 'extension-rtmp'
 include modulePrefix + 'extension-leanback'
@@ -51,6 +52,7 @@ project(modulePrefix + 'extension-cast').projectDir = new File(rootDir, 'extensi
 project(modulePrefix + 'extension-mediasession').projectDir = new File(rootDir, 'extensions/mediasession')
 project(modulePrefix + 'extension-okhttp').projectDir = new File(rootDir, 'extensions/okhttp')
 project(modulePrefix + 'extension-opus').projectDir = new File(rootDir, 'extensions/opus')
+project(modulePrefix + 'extension-playeradapter').projectDir = new File(rootDir, 'extensions/playeradapter')
 project(modulePrefix + 'extension-vp9').projectDir = new File(rootDir, 'extensions/vp9')
 project(modulePrefix + 'extension-rtmp').projectDir = new File(rootDir, 'extensions/rtmp')
 project(modulePrefix + 'extension-leanback').projectDir = new File(rootDir, 'extensions/leanback')
